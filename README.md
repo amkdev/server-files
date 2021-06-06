@@ -1,8 +1,6 @@
-<p align="center">
-    <img src="https://github.com/amkdev/server-files/blob/master/src/icon.svg" alt="ServerFiles" width="150"/>
-</p>
+![Plugin Icon: A folder with a list and character i.](./src/icon.svg) 
 
-# Server Files for Craft 3.1
+# Server Files for Craft CMS 3.x
 
 Retrieve a list of files based on a specified folder path and extracts file information (optionally, currently onyl Exif image data)
 
@@ -21,6 +19,8 @@ cd /path/to/project
 ```
 composer require amkdev/server-files
 ```
+
+3. In the Control Panel, go to Settings → Plugins and click the “Install” button for Server Files.
 
 ## Introduction
 
