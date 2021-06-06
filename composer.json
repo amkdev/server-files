@@ -1,0 +1,52 @@
+{
+  "name": "amkdev/server-files",
+  "description": "CraftCMS plugin to retrieve a list of files based on a specified server path and extracts file information.",
+  "version": "1.0.0",
+  "type": "craft-plugin",
+  "keywords": [
+    "craft",
+    "cms",
+    "files",
+    "craftcms",
+    "list",
+    "craft-plugin"
+  ],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Alexander M. Korn",
+      "email": "dev@spume.net",
+      "homepage": "https://github.com/amkdev"
+    }
+  ],
+  "support": {
+    "issues": "https://github.com/amkdev/sever-files/issues/new",
+    "source": "https://github.com/amkdev/sever-files",
+    "docs": "https://github.com/amkdev/sever-files"
+  },
+  "require": {
+    "craftcms/cms": "^3.1.0",
+    "miljar/php-exif": "^0.6.5"
+  },
+  "autoload": {
+    "psr-4": {
+      "amkdev\\serverfiles\\": "src/"
+    }
+  },
+  "repositories": [
+    {
+      "type": "composer",
+      "url": "https://asset-packagist.org"
+    }
+  ],
+  "extra": {
+    "handle": "server-files",
+    "name": "Server Files",
+    "hasCpSettings": false,
+    "hasCpSection": false,
+    "components": {
+      "serverFilesService": "amkdev\\serverfiles\\services\\ServerFilesService"
+    },
+    "class": "amkdev\\serverfiles\\ServerFiles"
+  }
+}
