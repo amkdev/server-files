@@ -1,7 +1,7 @@
 {
   "name": "amkdev/server-files",
   "description": "Craft CMS plugin to retrieve a list of files based on a specified webroot path and extracts file information.",
-  "version": "1.0.0",
+  "version": "1.0.0.0",
   "type": "craft-plugin",
   "keywords": [
     "craft",
